@@ -63,8 +63,11 @@ const AdminDashboard = () => {
         <div className="min-h-screen bg-gray-50">
             <header className="bg-white border-b px-6 py-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <img src={assets.logo} alt="Demo Hotel" className="h-8 w-auto max-w-[160px] object-contain" />
-                    <h1 className="text-xl font-bold text-gray-900">Admin Panel</h1>
+                    <div className="flex flex-col items-start leading-none">
+                        <span className="font-playfair text-xl font-black tracking-widest uppercase text-gray-900">Hotel</span>
+                        <span className="font-playfair text-sm font-bold tracking-[0.3em] text-[#49B9FF]">DEMO</span>
+                    </div>
+                    <h1 className="text-xl font-bold text-gray-900 border-l border-gray-300 pl-3 ml-1">Admin Panel</h1>
                 </div>
                 <div className="flex items-center gap-4">
                     <span className="text-sm text-gray-600">{user?.email}</span>

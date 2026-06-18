@@ -27,21 +27,24 @@ const seedDatabase = async () => {
     }, { upsert: true });
 
     // Admin
-    await User.findOneAndUpdate({ email: "admin@demo.com" }, {
+    const dummyAdminId = "seed_admin_001";
+    await User.findByIdAndUpdate(dummyAdminId, {
       email: "admin@demo.com",
       password: hashedPw,
       username: "Demo Admin",
+      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=admin",
       role: "admin",
-      isAdmin: true
-    }, { upsert: true });
+    }, { upsert: true, setDefaultsOnInsert: true });
 
     // Normal User
-    await User.findOneAndUpdate({ email: "user@demo.com" }, {
+    const dummyUserId = "seed_user_001";
+    await User.findByIdAndUpdate(dummyUserId, {
       email: "user@demo.com",
       password: hashedPw,
       username: "Demo User",
-      role: "user"
-    }, { upsert: true });
+      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=user",
+      role: "user",
+    }, { upsert: true, setDefaultsOnInsert: true });
 
     console.log("✅ Demo users created: admin@demo.com, owner@demo.com, user@demo.com");
 

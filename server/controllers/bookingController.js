@@ -155,12 +155,17 @@ export const getHotelBookings = async (req, res) => {
             .populate("room hotel user")
             .sort({ createdAt: -1 });
 
-        const totalBookings = bookings.length;
-        const totalRevenue = bookings.reduce((sum, b) => sum + b.totalPrice, 0);
+        const hospitalityOrders = await HospitalityOrder.find({ hotel: hotel._id })
+            .populate("hospitality hotel user")
+            .sort({ createdAt: -1 });
+
+        const totalBookings = bookings.length + hospitalityOrders.length;
+        const totalRevenue = bookings.reduce((sum, b) => sum + b.totalPrice, 0)
+            + hospitalityOrders.reduce((sum, o) => sum + o.totalPrice, 0);
 
         res.json({
             success: true,
-            dashboardData: { totalBookings, totalRevenue, bookings }
+            dashboardData: { totalBookings, totalRevenue, bookings, hospitalityOrders }
         });
 
     } catch (error) {
