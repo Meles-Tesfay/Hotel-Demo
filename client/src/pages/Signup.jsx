@@ -49,7 +49,10 @@ const Signup = () => {
         <div className="min-h-screen flex items-center justify-center px-4 py-28 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
             <div className="w-full max-w-lg bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-10 max-h-[90vh] overflow-y-auto">
                 <div className="text-center mb-6">
-                    <img src={assets.logo} alt="Demo Hotel" className="h-14 md:h-16 w-auto min-w-[200px] max-w-[280px] mx-auto object-contain drop-shadow-sm mb-4" />
+                    <Link to='/' className="flex flex-col items-center shrink-0 mb-4">
+                        <span className="font-playfair text-3xl md:text-4xl font-black tracking-widest uppercase leading-none text-gray-900">Hotel</span>
+                        <span className="font-playfair text-lg md:text-xl font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1">DEMO</span>
+                    </Link>
                     <h1 className="text-2xl font-bold text-gray-900 font-playfair">Create account</h1>
                     <p className="text-gray-500 text-sm mt-1">Choose how you want to use Demo Hotel</p>
                 </div>

@@ -47,7 +47,10 @@ const Login = () => {
             <div className="w-full max-w-md bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-10">
                 <div className="text-center mb-8">
                     <div className="flex items-center justify-center gap-2 mb-4">
-                        <img src={assets.logo} alt="Demo Hotel" className="h-14 md:h-16 w-auto min-w-[200px] max-w-[280px] object-contain drop-shadow-sm" />
+                        <Link to='/' className="flex flex-col items-center shrink-0">
+                            <span className="font-playfair text-3xl md:text-4xl font-black tracking-widest uppercase leading-none text-gray-900">Hotel</span>
+                            <span className="font-playfair text-lg md:text-xl font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1">DEMO</span>
+                        </Link>
                     </div>
                     {showAuthMessage && authMessage && (
                         <p className="text-red-600 text-sm font-semibold mb-4">{authMessage}</p>
