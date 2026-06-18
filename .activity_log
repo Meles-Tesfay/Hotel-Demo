@@ -1,0 +1,20 @@
+style: redesign Featured Destinations component
+feat: add glass reveal effect to Featured cards
+style: standardize Hotel Card buttons
+feat: implement expanding hover line on Hotel Cards
+refactor: streamline Exclusive Offer component
+style: apply light theme to Exclusive Offer
+feat: add cinematic zoom effect to Offer cards
+style: unify orange accent palette across components
+style: redesign Testimonial section
+feat: add glowing blobs to Testimonial background
+style: implement glass hover on Testimonial description
+style: transform Newsletter into dark premium banner
+feat: add animated border to Newsletter input
+style: compact Newsletter layout padding
+style: convert Footer to floating white card
+style: add soft shadow to Footer
+style: restore original Footer content
+style: refine Footer rounded corners
+style: bolden Footer shadow intensity
+chore: synchronize today's development progress

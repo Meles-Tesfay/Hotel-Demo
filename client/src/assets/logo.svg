@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" fill="none" role="img" aria-label="Bekele Mola Hotels">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E6B8"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.8" flood-color="#5C4A12" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <text
+    x="210"
+    y="38"
+    text-anchor="middle"
+    font-family="Playfair, Georgia, 'Times New Roman', serif"
+    font-size="34"
+    font-weight="700"
+    letter-spacing="3"
+    fill="url(#gold)"
+    filter="url(#softShadow)"
+  >BEKELE MOLA</text>
+  <text
+    x="210"
+    y="62"
+    text-anchor="middle"
+    font-family="Playfair, Georgia, 'Times New Roman', serif"
+    font-size="16"
+    font-weight="600"
+    letter-spacing="6"
+    fill="url(#gold)"
+    filter="url(#softShadow)"
+  >HOTELS</text>
+</svg>
