@@ -46,10 +46,13 @@ const Login = () => {
         <div className="min-h-screen flex items-center justify-center px-4 py-28 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
             <div className="w-full max-w-md bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-10">
                 <div className="text-center mb-8">
-                    <div className="flex items-center justify-center gap-2 mb-4">
-                        <Link to='/' className="flex flex-col items-center shrink-0">
-                            <span className="font-playfair text-3xl md:text-4xl font-black tracking-widest uppercase leading-none text-gray-900">Hotel</span>
-                            <span className="font-playfair text-lg md:text-xl font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1">DEMO</span>
+                    <div className="flex items-center justify-center mb-4">
+                        <Link to='/' className="flex items-center gap-4 shrink-0 text-gray-900">
+                            <img src={assets.logo} alt="Sobana Hotel Logo" className="h-16 md:h-20 w-auto object-contain mix-blend-multiply contrast-110" />
+                            <div className="flex flex-col items-start text-left">
+                                <span className="font-playfair text-2xl md:text-3xl font-black tracking-widest uppercase leading-none">Sobana</span>
+                                <span className="font-playfair text-sm md:text-base font-bold tracking-[0.3em] text-[#d4af37] leading-none mt-1">Hotel</span>
+                            </div>
                         </Link>
                     </div>
                     {showAuthMessage && authMessage && (
@@ -98,11 +101,11 @@ const Login = () => {
                 </form>
 
                 <div className="mt-6 bg-blue-50 p-4 rounded-xl text-sm text-gray-700 border border-blue-100">
-                    <p className="font-semibold text-blue-900 mb-2">Demo Credentials:</p>
+                    <p className="font-semibold text-blue-900 mb-2">Sobana Credentials:</p>
                     <ul className="space-y-1">
-                        <li><strong>Admin:</strong> admin@demo.com / demo123</li>
-                        <li><strong>Hotel Owner:</strong> owner@demo.com / demo123</li>
-                        <li><strong>User:</strong> user@demo.com / demo123</li>
+                        <li><strong>Admin:</strong> admin@Sobana.com / Sobana123</li>
+                        <li><strong>Hotel Owner:</strong> owner@Sobana.com / Sobana123</li>
+                        <li><strong>User:</strong> user@Sobana.com / Sobana123</li>
                     </ul>
                 </div>
 

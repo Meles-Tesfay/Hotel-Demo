@@ -65,7 +65,7 @@ const AdminDashboard = () => {
                 <div className="flex items-center gap-3">
                     <div className="flex flex-col items-start leading-none">
                         <span className="font-playfair text-xl font-black tracking-widest uppercase text-gray-900">Hotel</span>
-                        <span className="font-playfair text-sm font-bold tracking-[0.3em] text-[#49B9FF]">DEMO</span>
+                        <span className="font-playfair text-sm font-bold tracking-[0.3em] text-[#49B9FF]">Sobana</span>
                     </div>
                     <h1 className="text-xl font-bold text-gray-900 border-l border-gray-300 pl-3 ml-1">Admin Panel</h1>
                 </div>

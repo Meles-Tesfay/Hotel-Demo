@@ -12,15 +12,15 @@ const seedDatabase = async () => {
     await connectDB();
     console.log("Connected to DB. Seeding...");
 
-    // ── 1. Create demo users ──
-    const hashedPw = await bcrypt.hash("demo123", 10);
+    // ── 1. Create Sobana users ──
+    const hashedPw = await bcrypt.hash("Sobana123", 10);
     
     // Owner
     const dummyOwnerId = "seed_owner_001";
     await User.findByIdAndUpdate(dummyOwnerId, {
-      email: "owner@demo.com",
+      email: "owner@Sobana.com",
       password: hashedPw,
-      username: "Demo Hotel Owner",
+      username: "Sobana Hotel Owner",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
       role: "hotelOwner",
       ownerStatus: "approved",
@@ -29,9 +29,9 @@ const seedDatabase = async () => {
     // Admin
     const dummyAdminId = "seed_admin_001";
     await User.findByIdAndUpdate(dummyAdminId, {
-      email: "admin@demo.com",
+      email: "admin@Sobana.com",
       password: hashedPw,
-      username: "Demo Admin",
+      username: "Sobana Admin",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=admin",
       role: "admin",
     }, { upsert: true, setDefaultsOnInsert: true });
@@ -39,14 +39,14 @@ const seedDatabase = async () => {
     // Normal User
     const dummyUserId = "seed_user_001";
     await User.findByIdAndUpdate(dummyUserId, {
-      email: "user@demo.com",
+      email: "user@Sobana.com",
       password: hashedPw,
-      username: "Demo User",
+      username: "Sobana User",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=user",
       role: "user",
     }, { upsert: true, setDefaultsOnInsert: true });
 
-    console.log("✅ Demo users created: admin@demo.com, owner@demo.com, user@demo.com");
+    console.log("✅ Sobana users created: admin@Sobana.com, owner@Sobana.com, user@Sobana.com");
 
     // ── 2. Clear old seed data ──
     await Hotel.deleteMany({});
@@ -57,7 +57,7 @@ const seedDatabase = async () => {
     // ── 3. Hotels ──
     const hotelsData = [
       {
-        name: "Demo Hotel",
+        name: "Sobana Hotel",
         address: "Main Road, City Center",
         contact: "+251 911 234 567",
         city: "Arba Minch",
@@ -79,8 +79,8 @@ const seedDatabase = async () => {
         pricePerNight: 4500,
         amenities: ["Free Wifi", "Free Breakfast", "Room Service", "Mountain View", "Air Conditioning"],
         images: [
-          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop",
-          "https://images.unsplash.com/photo-1590490360182-c33d955e7f24?w=800&h=600&fit=crop",
+          "/src/assets/sobana/10001.jpg",
+          "/src/assets/sobana/10002.jpg",
         ],
       },
       {
@@ -90,8 +90,8 @@ const seedDatabase = async () => {
         pricePerNight: 3200,
         amenities: ["Free Wifi", "Free Breakfast", "Air Conditioning", "Room Service"],
         images: [
-          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&h=600&fit=crop",
-          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&h=600&fit=crop",
+          "/src/assets/sobana/10003.jpg",
+          "/src/assets/sobana/10004.jpg",
         ],
       },
       {
@@ -101,8 +101,8 @@ const seedDatabase = async () => {
         pricePerNight: 1800,
         amenities: ["Free Wifi", "Air Conditioning", "Housekeeping"],
         images: [
-          "/src/assets/bedrooms/Buren Sheesham Wood Single Bed In Honey Oak Finish.jfif",
-          "/src/assets/bedrooms/አልጋ.jfif",
+          "/src/assets/sobana/10008.jpg",
+          "/src/assets/sobana/10011.jpg",
         ],
       },
       {
@@ -112,8 +112,8 @@ const seedDatabase = async () => {
         pricePerNight: 5500,
         amenities: ["Free Wifi", "Free Breakfast", "Room Service", "Parking", "Air Conditioning"],
         images: [
-          "/src/assets/bedrooms/Luxurious home away from home shanzu.jfif",
-          "/src/assets/bedrooms/Sheesham wooden bed hav unique look & treadtional….jfif",
+          "/src/assets/sobana/10001.jpg",
+          "/src/assets/sobana/10003.jpg",
         ],
       },
       {
@@ -123,8 +123,8 @@ const seedDatabase = async () => {
         pricePerNight: 8500,
         amenities: ["Free Wifi", "Free Breakfast", "Room Service", "Mountain View", "Parking", "Air Conditioning"],
         images: [
-          "/src/assets/bedrooms/Eigentumswohnung · Malabo · ★4,95 · 2 Schlafzimmer · 2 Betten · 1 privates Badezimmer.jfif",
-          "/src/assets/bedrooms/Buren Sheesham Wood Single Bed In Honey Oak Finish.jfif",
+          "/src/assets/sobana/10002.jpg",
+          "/src/assets/sobana/10008.jpg",
         ],
       },
       {
@@ -134,8 +134,8 @@ const seedDatabase = async () => {
         pricePerNight: 1200,
         amenities: ["Free Wifi", "Housekeeping", "Air Conditioning"],
         images: [
-          "/src/assets/bedrooms/አልጋ.jfif",
-          "/src/assets/bedrooms/Sheesham wooden bed hav unique look & treadtional….jfif",
+          "/src/assets/sobana/10004.jpg",
+          "/src/assets/sobana/10011.jpg",
         ],
       },
     ];

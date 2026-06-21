@@ -10,7 +10,7 @@ export const footerPages = {
         heroImage: img('1556761175-5973dc0f32e7'),
         accent: 'blue',
         intro: [
-            'Demo Hotel is growing fast â€” and we are looking for passionate people who care about travel, design, and exceptional service. Whether you are an engineer, designer, marketer, or hospitality professional, you will work on products used by thousands of guests and hotel partners every day.',
+            'Sobana Hotel is growing fast â€” and we are looking for passionate people who care about travel, design, and exceptional service. Whether you are an engineer, designer, marketer, or hospitality professional, you will work on products used by thousands of guests and hotel partners every day.',
             'We offer flexible work arrangements, competitive compensation, learning budgets, and a culture that values ownership, kindness, and craft. Explore how your skills can make every stay more memorable.',
         ],
         stats: [
@@ -21,7 +21,7 @@ export const footerPages = {
         ],
         sections: [
             {
-                heading: 'Life at Demo Hotel',
+                heading: 'Life at Sobana Hotel',
                 subheading: 'What makes working here different',
                 type: 'cards',
                 items: [
@@ -46,9 +46,9 @@ export const footerPages = {
         ],
         contactBlock: {
             title: 'How to apply',
-            description: 'Send your rÃ©sumÃ©, portfolio (if applicable), and a short note about why Demo Hotel resonates with you.',
+            description: 'Send your rÃ©sumÃ©, portfolio (if applicable), and a short note about why Sobana Hotel resonates with you.',
             details: [
-                'Email: careers@Demo Hotel.com',
+                'Email: careers@Sobana Hotel.com',
                 'Subject line: [Role] â€” Your Name',
                 'We respond to every application within ten business days.',
             ],
@@ -64,7 +64,7 @@ export const footerPages = {
         heroImage: img('1504711434969-e33886168f5c'),
         accent: 'blue',
         intro: [
-            'Demo Hotel connects travelers with curated hotels, exclusive offers, and hospitality experiences. Our platform serves guests in dozens of countries and partners with boutique and luxury properties worldwide.',
+            'Sobana Hotel connects travelers with curated hotels, exclusive offers, and hospitality experiences. Our platform serves guests in dozens of countries and partners with boutique and luxury properties worldwide.',
             'For press inquiries, interview requests, or brand partnership opportunities, our communications team is available to provide facts, imagery, and executive commentary.',
         ],
         stats: [
@@ -78,7 +78,7 @@ export const footerPages = {
                 heading: 'Recent Highlights',
                 type: 'list',
                 items: [
-                    { title: 'Demo Hotel launches hospitality marketplace', description: 'Owners can now list spa, dining, and experience services alongside room inventory.' },
+                    { title: 'Sobana Hotel launches hospitality marketplace', description: 'Owners can now list spa, dining, and experience services alongside room inventory.' },
                     { title: 'Sustainability pledge 2026', description: 'Commitment to carbon-neutral operations and eco-certified property badges.' },
                     { title: 'Series B funding', description: 'Investment to expand into Asia-Pacific and enhance guest safety features.' },
                 ],
@@ -98,7 +98,7 @@ export const footerPages = {
             title: 'Press contact',
             description: 'For urgent requests or embargoed materials, reach our communications desk directly.',
             details: [
-                'Email: press@Demo Hotel.com',
+                'Email: press@Sobana Hotel.com',
                 'Phone: +1 (555) 014-2200',
                 'Hours: Mondayâ€“Friday, 9 AM â€“ 6 PM EST',
             ],
@@ -108,7 +108,7 @@ export const footerPages = {
     blog: {
         slug: 'blog',
         badge: 'Travel Insights',
-        titleLead: 'The Demo Hotel',
+        titleLead: 'The Sobana Hotel',
         titleHighlight: 'Journal',
         subtitle: 'Stories, guides, and inspiration for your next unforgettable stay.',
         heroImage: img('1414235077428-338989a2e8c0'),
@@ -143,9 +143,9 @@ export const footerPages = {
             title: 'Contribute or subscribe',
             description: 'Writers and photographers may pitch story ideas. Readers can receive weekly digest updates.',
             details: [
-                'Editorial: editorial@Demo Hotel.com',
+                'Editorial: editorial@Sobana Hotel.com',
                 'Newsletter: manage preferences from any Journal email footer',
-                'Republishing: credit Demo Hotel Journal with a link to the original article',
+                'Republishing: credit Sobana Hotel Journal with a link to the original article',
             ],
         },
     },
@@ -154,12 +154,12 @@ export const footerPages = {
         slug: 'partners',
         badge: 'Grow Together',
         titleLead: 'Partner',
-        titleHighlight: 'With Demo Hotel',
+        titleHighlight: 'With Sobana Hotel',
         subtitle: 'List your property, reach global travelers, and grow revenue with our platform.',
         heroImage: img('1566073771259-6a8506099945'),
         accent: 'blue',
         intro: [
-            'Demo Hotel partners with independent boutiques, resort groups, and experience providers who share our commitment to quality and guest trust. Our tools help you manage rooms, hospitality add-ons, pricing, and availability from one dashboard.',
+            'Sobana Hotel partners with independent boutiques, resort groups, and experience providers who share our commitment to quality and guest trust. Our tools help you manage rooms, hospitality add-ons, pricing, and availability from one dashboard.',
             'From onboarding to marketing support, we are invested in your success â€” not just our commission.',
         ],
         stats: [
@@ -194,7 +194,7 @@ export const footerPages = {
             title: 'Become a partner',
             description: 'Tell us about your property or business and our partnerships team will follow up.',
             details: [
-                'Email: partners@Demo Hotel.com',
+                'Email: partners@Sobana Hotel.com',
                 'Include: property name, location, room count, and website',
                 'Approved owners receive dashboard access after a brief verification review',
             ],
@@ -210,7 +210,7 @@ export const footerPages = {
         heroImage: img('1578683010236-d716f9a3f461'),
         accent: 'emerald',
         intro: [
-            'Welcome to the Demo Hotel Help Center. Here you will find clear guidance on creating an account, searching rooms, applying offers, managing bookings, and using hospitality add-ons.',
+            'Welcome to the Sobana Hotel Help Center. Here you will find clear guidance on creating an account, searching rooms, applying offers, managing bookings, and using hospitality add-ons.',
             'Most questions are answered below. For account-specific issues, note your booking reference when contacting support.',
         ],
         sections: [
@@ -239,7 +239,7 @@ export const footerPages = {
             title: 'Still need help?',
             description: 'Our guest support team is ready to assist with bookings and account issues.',
             details: [
-                'Email: help@Demo Hotel.com',
+                'Email: help@Sobana Hotel.com',
                 'Include your booking ID and registered email',
                 'Average response time: under 4 hours on business days',
             ],
@@ -261,7 +261,7 @@ export const footerPages = {
             { value: '<2hr', label: 'Urgent case response' },
         ],
         intro: [
-            'Your safety is foundational to everything we build. Demo Hotel verifies partner properties, secures personal data, and provides clear policies so you can book with confidence.',
+            'Your safety is foundational to everything we build. Sobana Hotel verifies partner properties, secures personal data, and provides clear policies so you can book with confidence.',
             'We continuously improve our standards through guest feedback, partner audits, and collaboration with industry security experts.',
         ],
         sections: [
@@ -280,8 +280,8 @@ export const footerPages = {
                 type: 'list',
                 items: [
                     { title: 'Review property details', description: 'Read descriptions, amenities, and policies before confirming payment.' },
-                    { title: 'Communicate through official channels', description: 'Use Demo Hotel messaging and support for disputes â€” avoid off-platform payments.' },
-                    { title: 'Report concerns immediately', description: 'Safety issues at a property should be reported to support@Demo Hotel.com with photos if possible.' },
+                    { title: 'Communicate through official channels', description: 'Use Sobana Hotel messaging and support for disputes â€” avoid off-platform payments.' },
+                    { title: 'Report concerns immediately', description: 'Safety issues at a property should be reported to support@Sobana Hotel.com with photos if possible.' },
                     { title: 'Respect local laws', description: 'Follow destination regulations, check-in requirements, and property house rules.' },
                 ],
             },
@@ -290,7 +290,7 @@ export const footerPages = {
             title: 'Report a safety concern',
             description: 'Urgent matters receive priority handling within two hours during business hours.',
             details: [
-                'Email: safety@Demo Hotel.com',
+                'Email: safety@Sobana Hotel.com',
                 'Emergency on-property: contact local authorities first, then notify us',
                 'We may suspend listings pending investigation',
             ],
@@ -302,7 +302,7 @@ export const footerPages = {
         badge: 'Booking Policy',
         titleLead: 'Cancellation &',
         titleHighlight: 'Refunds',
-        subtitle: 'Understand how changes, cancellations, and refunds work on Demo Hotel.',
+        subtitle: 'Understand how changes, cancellations, and refunds work on Sobana Hotel.',
         heroImage: img('1507525428034-b723cf961d3e'),
         accent: 'orange',
         intro: [
@@ -326,7 +326,7 @@ export const footerPages = {
                 items: [
                     { title: 'Locate your booking', description: 'Sign in and open My Bookings to find the reservation.' },
                     { title: 'Check eligibility', description: 'Review the cancellation window and any fees listed on your confirmation.' },
-                    { title: 'Submit request', description: 'Email support@Demo Hotel.com with your booking ID if self-service cancel is unavailable.' },
+                    { title: 'Submit request', description: 'Email support@Sobana Hotel.com with your booking ID if self-service cancel is unavailable.' },
                     { title: 'Refund timing', description: 'Approved refunds process within 5â€“10 business days to your original payment method.' },
                 ],
             },
@@ -343,7 +343,7 @@ export const footerPages = {
             title: 'Cancellation assistance',
             description: 'We will clarify your options and coordinate with the property when needed.',
             details: [
-                'Email: cancel@Demo Hotel.com',
+                'Email: cancel@Sobana Hotel.com',
                 'Subject: Cancel â€” [Booking ID]',
                 'Attach confirmation email for faster processing',
             ],
@@ -359,7 +359,7 @@ export const footerPages = {
         heroImage: img('1556761175-5973dc0f32e7'),
         accent: 'blue',
         intro: [
-            'The Demo Hotel support team helps you before, during, and after your stay. From booking questions to owner dashboard help, we aim for fast, friendly, and accurate resolutions.',
+            'The Sobana Hotel support team helps you before, during, and after your stay. From booking questions to owner dashboard help, we aim for fast, friendly, and accurate resolutions.',
             'Choose the channel that fits your situation â€” many issues are resolved within the same business day.',
         ],
         stats: [
@@ -383,10 +383,10 @@ export const footerPages = {
                 heading: 'Contact Channels',
                 type: 'list',
                 items: [
-                    { title: 'General support', description: 'support@Demo Hotel.com â€” all guest and owner inquiries.' },
+                    { title: 'General support', description: 'support@Sobana Hotel.com â€” all guest and owner inquiries.' },
                     { title: 'Phone (urgent)', description: '+1 (555) 800-4663 â€” booking-day emergencies and check-in issues.' },
                     { title: 'Live chat', description: 'Available on the website weekdays 8 AM â€“ 10 PM local time.' },
-                    { title: 'Owner priority line', description: 'ownersupport@Demo Hotel.com â€” verified partners only.' },
+                    { title: 'Owner priority line', description: 'ownersupport@Sobana Hotel.com â€” verified partners only.' },
                 ],
             },
         ],
@@ -410,7 +410,7 @@ export const footerPages = {
         heroImage: img('1573496359142-b8d87734a5a2'),
         accent: 'emerald',
         intro: [
-            'Demo Hotel believes travel should be welcoming for everyone. We work with partners to surface accessibility information, improve our digital products for assistive technologies, and train support staff on inclusive service.',
+            'Sobana Hotel believes travel should be welcoming for everyone. We work with partners to surface accessibility information, improve our digital products for assistive technologies, and train support staff on inclusive service.',
             'We are continuously improving â€” your feedback helps us prioritize what matters most to our community.',
         ],
         sections: [
@@ -438,16 +438,16 @@ export const footerPages = {
                 heading: 'Request accommodations',
                 type: 'faq',
                 items: [
-                    { title: 'Need help finding an accessible room?', description: 'Email access@Demo Hotel.com with your dates, destination, and requirements.' },
+                    { title: 'Need help finding an accessible room?', description: 'Email access@Sobana Hotel.com with your dates, destination, and requirements.' },
                     { title: 'Report a barrier on our website', description: 'Describe the page and issue â€” we treat accessibility bugs as high priority.' },
                 ],
             },
         ],
         contactBlock: {
             title: 'Accessibility feedback',
-            description: 'We welcome suggestions and reports to improve inclusive travel on Demo Hotel.',
+            description: 'We welcome suggestions and reports to improve inclusive travel on Sobana Hotel.',
             details: [
-                'Email: access@Demo Hotel.com',
+                'Email: access@Sobana Hotel.com',
                 'Response within 3 business days',
                 'Optional: phone support at +1 (555) 800-4663 for booking assistance',
             ],

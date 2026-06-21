@@ -22,6 +22,9 @@ const FeaturedDestination = () => {
                     ✦ Handpicked For You ✦
                 </div>
 
+                {/* Script flourish */}
+                <p className="font-['Playfair_Display'] italic text-[#d4af37] text-xl md:text-2xl mb-3 opacity-90 tracking-wide">Curated for you</p>
+
                 {/* Title — "Featured" lifts left, "Destinations" shimmers on hover */}
                 <h2 className='font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-5 cursor-default'>
                     <span className="inline-block transition-all duration-500 hover:-translate-y-1 hover:text-gray-700">Featured</span>
@@ -43,7 +46,7 @@ const FeaturedDestination = () => {
                     {/* Background glass reveal */}
                     <div className="absolute inset-0 -m-4 rounded-2xl bg-gradient-to-r from-blue-50/0 via-cyan-50/0 to-blue-50/0 scale-95 opacity-0 group-hover/desc:opacity-100 group-hover/desc:scale-100 group-hover/desc:from-blue-50/80 group-hover/desc:via-cyan-50/60 group-hover/desc:to-blue-50/80 transition-all duration-500 border border-transparent group-hover/desc:border-blue-100 backdrop-blur-sm"></div>
                     <p className='relative z-10 text-gray-600 text-base md:text-lg font-medium leading-relaxed transition-all duration-500 group-hover/desc:text-gray-900 group-hover/desc:text-xl group-hover/desc:font-semibold px-4 py-2'>
-                        Browse our handpicked selection of rooms across all Demo Hotel branches, each offering top-quality comfort and authentic Ethiopian warmth.
+                        Browse our handpicked selection of rooms across all Sobana Hotel branches, each offering top-quality comfort and authentic Ethiopian warmth.
                     </p>
                     {/* Bottom accent line that grows on hover */}
                     <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 h-[2px] w-0 bg-gradient-to-r from-[#49B9FF] to-blue-600 rounded-full group-hover/desc:w-3/4 transition-all duration-700"></div>

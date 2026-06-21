@@ -130,7 +130,7 @@ const BranchPage = () => {
                 
                 <div className="relative z-10 animate-fade-in-up mt-16 max-w-4xl">
                     <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 px-5 py-2 rounded-full text-sm font-medium text-white mb-6 shadow-sm">
-                        Demo Hotel
+                        Sobana Hotel
                     </div>
                     <h1 className='font-playfair text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-xl'>
                         {localBranchInfo.name} Branch

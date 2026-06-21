@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { assets, cities } from "../assets/assets";
 import { useAppContext } from "../context/AppContext";
-import heroVideo from "../assets/Isn’t it just a resort_.mp4";
+import heroVideo from "../assets/sobana/sobana.mp4";
 
 const Hero = () => {
   const { navigate, user, axios, setSearchedCities } = useAppContext();
@@ -42,68 +42,34 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/20 pointer-events-none"></div>
 
       <div className="relative z-10 w-full animate-fade-in-up mt-10">
-        <h1 className="font-playfair text-4xl md:text-6xl lg:text-[72px] lg:leading-[80px] font-extrabold max-w-3xl drop-shadow-2xl leading-tight group/title cursor-default transition-all duration-500 hover:translate-x-3 hover:drop-shadow-[0_0_30px_rgba(73,185,255,0.4)]">
-          Welcome to <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#49B9FF] to-blue-200 transition-all duration-500 group-hover/title:from-[#FF4D00] group-hover/title:to-[#FF8C00]">
-            Demo Hotel
+
+        
+        <p className="font-['Playfair_Display'] italic text-[#f3e5ab] text-xl md:text-2xl mt-4 mb-2 drop-shadow-lg opacity-90 tracking-wide">
+          Where every stay is a story
+        </p>
+
+        <h1 className="font-playfair text-5xl md:text-7xl lg:text-[80px] lg:leading-[90px] font-extrabold max-w-4xl drop-shadow-2xl leading-tight group/title cursor-default transition-all duration-500 hover:translate-x-2">
+          Your perfect stay <br className="hidden md:block" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] via-[#f3e5ab] to-[#d4af37] transition-all duration-500 bg-[length:200%_auto] animate-[gradient_8s_linear_infinite]">
+            starts here.
           </span>
         </h1>
 
-        <p className="max-w-xl mt-6 text-base md:text-xl text-white font-medium drop-shadow-lg leading-relaxed transition-all duration-500 hover:translate-x-1 cursor-default">
-          Experience unparalleled hospitality across Ethiopia. From urban
-          elegance to tranquil lakeside retreats, discover comfort at its
-          finest.
+        <p className="max-w-2xl mt-6 text-lg md:text-2xl text-gray-200 font-light drop-shadow-lg leading-relaxed transition-all duration-500 hover:translate-x-1 cursor-default tracking-wide">
+          <span className="text-white font-semibold">Comfort</span> • <span className="text-white font-semibold">Quality</span> • <span className="text-white font-semibold">Excellent Service</span>
         </p>
 
-        <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-transparent px-4 py-2 rounded-xl text-sm font-medium hover:bg-white/20 transition-all cursor-default mt-5 shadow-sm">
-          <span className="relative flex h-3 w-3">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#49B9FF] opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-[#49B9FF]"></span>
-          </span>
-          The Ultimate Hotel Experience
-        </div>
+
 
         {/* Premium Widget Search Bar — desktop/tablet only */}
         <form
           onSubmit={onSearch}
           className="hidden md:flex bg-white/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.25)] rounded-[2rem] p-2.5 mt-8 flex-row items-stretch gap-2.5 w-full max-w-[960px] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_60px_rgba(0,0,0,0.35)] relative z-20 border border-transparent"
         >
-          {/* Destination */}
-          <div className="flex-1 w-full bg-gray-50/80 hover:bg-[#e8f4ff] border border-transparent hover:border-blue-300 rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-blue-400 focus-within:ring-4 focus-within:ring-blue-100 hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(73,185,255,0.2)]">
-            <div className="flex items-center gap-2 mb-1">
-              <img
-                src={assets.locationIcon}
-                alt="Location"
-                className="w-3.5 h-3.5 opacity-50 group-hover:opacity-80 group-focus-within:opacity-100 group-focus-within:scale-110 group-hover:scale-110 transition-all duration-300"
-              />
-              <label
-                htmlFor="destinationInput"
-                className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-blue-500 transition-colors duration-300"
-              >
-                Destination
-              </label>
-            </div>
-            <div className="relative">
-              <input
-                onChange={(e) => setDestination(e.target.value)}
-                value={destination}
-                list="destinations"
-                id="destinationInput"
-                type="text"
-                className="w-full text-base font-bold text-gray-900 placeholder-gray-400 outline-none bg-transparent truncate"
-                placeholder="Where are you going?"
-                required
-              />
-              <datalist id="destinations">
-                {cities.map((city, index) => (
-                  <option value={city} key={index} />
-                ))}
-              </datalist>
-            </div>
-          </div>
+
 
           {/* Check In */}
-          <div className="flex-1 w-full bg-gray-50/80 hover:bg-[#e8f4ff] border border-transparent hover:border-blue-300 rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-blue-400 focus-within:ring-4 focus-within:ring-blue-100 hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(73,185,255,0.2)]">
+          <div className="flex-1 w-full bg-gray-50/80 hover:bg-[#fdfbf7] border border-transparent hover:border-[#d4af37] rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-[#c5a059] focus-within:ring-4 focus-within:ring-[#f3e5ab] hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(212,175,55,0.2)]">
             <div className="flex items-center gap-2 mb-1">
               <img
                 src={assets.calenderIcon}
@@ -112,7 +78,7 @@ const Hero = () => {
               />
               <label
                 htmlFor="checkIn"
-                className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-blue-500 transition-colors duration-300"
+                className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-[#c5a059] transition-colors duration-300"
               >
                 Check in
               </label>
@@ -125,7 +91,7 @@ const Hero = () => {
           </div>
 
           {/* Check Out */}
-          <div className="flex-1 w-full bg-gray-50/80 hover:bg-[#e8f4ff] border border-transparent hover:border-blue-300 rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-blue-400 focus-within:ring-4 focus-within:ring-blue-100 hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(73,185,255,0.2)]">
+          <div className="flex-1 w-full bg-gray-50/80 hover:bg-[#fdfbf7] border border-transparent hover:border-[#d4af37] rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-[#c5a059] focus-within:ring-4 focus-within:ring-[#f3e5ab] hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(212,175,55,0.2)]">
             <div className="flex items-center gap-2 mb-1">
               <img
                 src={assets.calenderIcon}
@@ -134,7 +100,7 @@ const Hero = () => {
               />
               <label
                 htmlFor="checkOut"
-                className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-blue-500 transition-colors duration-300"
+                className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-[#c5a059] transition-colors duration-300"
               >
                 Check out
               </label>
@@ -148,7 +114,7 @@ const Hero = () => {
 
           {/* Guests & Button Container */}
           <div className="flex items-stretch w-auto gap-2.5">
-            <div className="w-32 bg-gray-50/80 hover:bg-[#e8f4ff] border border-transparent hover:border-blue-300 rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-blue-400 focus-within:ring-4 focus-within:ring-blue-100 hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(73,185,255,0.2)]">
+            <div className="w-32 bg-gray-50/80 hover:bg-[#fdfbf7] border border-transparent hover:border-[#d4af37] rounded-[1.5rem] px-4 py-3 transition-all duration-300 group cursor-text focus-within:bg-white focus-within:border-[#c5a059] focus-within:ring-4 focus-within:ring-[#f3e5ab] hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(212,175,55,0.2)]">
               <div className="flex items-center gap-2 mb-1">
                 <img
                   src={assets.guestsIcon}
@@ -157,7 +123,7 @@ const Hero = () => {
                 />
                 <label
                   htmlFor="guests"
-                  className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-blue-500 transition-colors duration-300"
+                  className="text-[10px] font-bold text-gray-400 uppercase tracking-wider cursor-text group-hover:text-[#c5a059] transition-colors duration-300"
                 >
                   Guests
                 </label>
@@ -175,7 +141,7 @@ const Hero = () => {
             <button
               type="submit"
               aria-label="Search"
-              className="bg-gradient-to-br from-[#49B9FF] to-blue-600 w-16 rounded-[1.5rem] shadow-lg shadow-blue-500/40 hover:shadow-[0_0_25px_rgba(73,185,255,0.7)] hover:-translate-y-2 hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center flex-shrink-0 h-full group/btn"
+              className="bg-gradient-to-br from-[#d4af37] to-[#b8860b] w-16 rounded-[1.5rem] shadow-lg shadow-[#d4af37]/40 hover:shadow-[0_0_25px_rgba(212,175,55,0.7)] hover:-translate-y-2 hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center flex-shrink-0 h-full group/btn"
             >
               <img
                 src={assets.searchIcon}

@@ -138,7 +138,7 @@ const CareersLayout = ({ page }) => {
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-10">
                         <p className="text-[#49B9FF] text-xs font-bold uppercase tracking-[0.4em] mb-3">Our Culture</p>
-                        <h2 className="font-playfair text-3xl md:text-4xl font-bold">Life at Demo Hotel</h2>
+                        <h2 className="font-playfair text-3xl md:text-4xl font-bold">Life at Sobana Hotel</h2>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                         {cultureImages.map((img, i) => (

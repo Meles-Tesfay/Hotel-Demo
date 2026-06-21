@@ -49,12 +49,17 @@ const Signup = () => {
         <div className="min-h-screen flex items-center justify-center px-4 py-28 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
             <div className="w-full max-w-lg bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-10 max-h-[90vh] overflow-y-auto">
                 <div className="text-center mb-6">
-                    <Link to='/' className="flex flex-col items-center shrink-0 mb-4">
-                        <span className="font-playfair text-3xl md:text-4xl font-black tracking-widest uppercase leading-none text-gray-900">Hotel</span>
-                        <span className="font-playfair text-lg md:text-xl font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1">DEMO</span>
-                    </Link>
+                    <div className="flex items-center justify-center mb-4">
+                        <Link to='/' className="flex items-center gap-4 shrink-0 text-gray-900">
+                            <img src={assets.logo} alt="Sobana Hotel Logo" className="h-16 md:h-20 w-auto object-contain mix-blend-multiply contrast-110" />
+                            <div className="flex flex-col items-start text-left">
+                                <span className="font-playfair text-2xl md:text-3xl font-black tracking-widest uppercase leading-none">Sobana</span>
+                                <span className="font-playfair text-sm md:text-base font-bold tracking-[0.3em] text-[#d4af37] leading-none mt-1">Hotel</span>
+                            </div>
+                        </Link>
+                    </div>
                     <h1 className="text-2xl font-bold text-gray-900 font-playfair">Create account</h1>
-                    <p className="text-gray-500 text-sm mt-1">Choose how you want to use Demo Hotel</p>
+                    <p className="text-gray-500 text-sm mt-1">Choose how you want to use Sobana Hotel</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 mb-6">

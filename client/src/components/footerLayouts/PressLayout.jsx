@@ -9,7 +9,7 @@ const pressArticles = [
         category: 'Product Launch',
         date: 'April 2026',
         readTime: '3 min read',
-        title: 'Demo Hotel Launches Hospitality Marketplace',
+        title: 'Sobana Hotel Launches Hospitality Marketplace',
         excerpt: 'Owners can now list spa, dining, and experience services alongside room inventory, creating a fully integrated stay platform.',
         author: 'Editorial Team',
     },

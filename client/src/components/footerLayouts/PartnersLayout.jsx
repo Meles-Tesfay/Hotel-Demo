@@ -48,7 +48,7 @@ const successStories = [
         imgId: '1566073771259-6a8506099945',
         hotel: 'Cala di Volpe, Sardinia',
         uplift: '+42% bookings',
-        quote: 'Demo Hotel brought us guests we could never have reached through our own website alone. The hospitality marketplace feature tripled our spa revenue in the first month.',
+        quote: 'Sobana Hotel brought us guests we could never have reached through our own website alone. The hospitality marketplace feature tripled our spa revenue in the first month.',
         person: 'Roberto Castellani, GM',
     },
     {

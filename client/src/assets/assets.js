@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./sobana/10013.jpg";
 import searchIcon from "./searchIcon.svg";
 import userIcon from "./userIcon.svg";
 import calenderIcon from "./calenderIcon.svg";
@@ -23,10 +23,10 @@ import badgeIcon from "./badgeIcon.svg";
 import menuIcon from "./menuIcon.svg";
 import closeMenu from "./closeMenu.svg";
 import guestsIcon from "./guestsIcon.svg";
-import roomImg1 from "./roomImg1.png";
-import roomImg2 from "./roomImg2.png";
-import roomImg3 from "./roomImg3.png";
-import roomImg4 from "./roomImg4.png";
+import roomImg1 from "./sobana/10001.jpg";
+import roomImg2 from "./sobana/10002.jpg";
+import roomImg3 from "./sobana/10003.jpg";
+import roomImg4 from "./sobana/10004.jpg";
 import regImage from "./regImage.png";
 import addIcon from "./addIcon.svg";
 import dashboardIcon from "./dashboardIcon.svg";
@@ -181,7 +181,7 @@ export const testimonials = [
       "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
     rating: 5,
     review:
-      "Demo Hotel is always my first choice when traveling across Ethiopia. The rooms are spotless, the staff treats you like family, and the food is truly exceptional.",
+      "Sobana Hotel is always my first choice when traveling across Ethiopia. The rooms are spotless, the staff treats you like family, and the food is truly exceptional.",
   },
   {
     id: 2,
@@ -226,7 +226,7 @@ export const roomCommonData = [
     icon: assets.badgeIcon,
     title: "Enhanced Cleaning",
     description:
-      "This host follows Demo Hotel' strict cleaning standards.",
+      "This host follows Sobana Hotel' strict cleaning standards.",
   },
   {
     icon: assets.locationFilledIcon,

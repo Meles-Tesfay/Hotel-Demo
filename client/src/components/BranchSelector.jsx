@@ -57,7 +57,7 @@ const BranchSelector = () => {
                 </h2>
 
                 <p className='text-gray-600 text-base md:text-lg font-medium leading-relaxed max-w-2xl px-4'>
-                    Discover the unique charm of our Demo Hotel across Ethiopia. Whether you seek urban elegance or a tranquil lakeside retreat, we have the perfect destination for you.
+                    Discover the unique charm of our Sobana Hotel across Ethiopia. Whether you seek urban elegance or a tranquil lakeside retreat, we have the perfect destination for you.
                 </p>
             </div>
 

@@ -27,9 +27,12 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
 
                     <div className="md:max-w-96 ">
-                        <Link to="/" onClick={scrollTop} className="inline-flex flex-col items-start mb-6 text-gray-900 group">
-                            <span className="font-playfair text-3xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Hotel</span>
-                            <span className="font-playfair text-xl font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 group-hover:text-blue-500">DEMO</span>
+                        <Link to="/" onClick={scrollTop} className="inline-flex items-center gap-4 mb-6 text-gray-900 group">
+                            <img src={assets.logo} alt="Sobana Hotel Logo" className="h-16 md:h-20 w-auto object-contain transition-transform duration-500 group-hover:scale-105 mix-blend-multiply contrast-110" />
+                            <div className="flex flex-col items-start text-left">
+                                <span className="font-playfair text-3xl md:text-4xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Sobana</span>
+                                <span className="font-playfair text-base md:text-lg font-bold tracking-[0.3em] text-[#d4af37] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 group-hover:text-yellow-600">Hotel</span>
+                            </div>
                         </Link>
                         <p className="mt-6 text-sm">
                             Book your perfect stay with us. We offer seamless hotel reservations, trusted listings, and the best prices to make your travel experience smooth, comfortable, and memorable.
@@ -96,7 +99,7 @@ const Footer = () => {
 
                 <div className='flex flex-col md:flex-row gap-2 items-center justify-between py-5'>
                     <p className="pt-4 text-center text-xs md:text-sm pb-5">
-                        Copyright ©{new Date().getFullYear()} - Demo Hotel. All rights reserved.
+                        Copyright ©{new Date().getFullYear()} - Sobana Hotel. All rights reserved.
                     </p>
                     <ul className="flex items-center gap-4 text-sm">
                         <li><Link to="/help" onClick={scrollTop} className="hover:text-[#49B9FF]">Privacy</Link></li>

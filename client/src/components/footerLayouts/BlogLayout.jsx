@@ -12,7 +12,7 @@ const articles = [
         excerpt: 'From the rugged Algarve cliffs to the turquoise Amalfi shores â€” our curated selection of oceanfront stays that deliver on every promise of sun, sea, and service.',
         body: [
             'Summer travel is rarely about finding the cheapest room â€” it is about matching the coastline to the mood you want when you arrive. We spent three months visiting properties that balance design, service, and access to the water without feeling overcrowded or overproduced.',
-            'Each hotel on this list was chosen for consistency: thoughtful check-in, rooms that stay cool in peak heat, and dining that feels local rather than generic. If you are booking through Demo Hotel, pair an early check-in request with our seasonal breakfast package for the smoothest first morning.',
+            'Each hotel on this list was chosen for consistency: thoughtful check-in, rooms that stay cool in peak heat, and dining that feels local rather than generic. If you are booking through Sobana Hotel, pair an early check-in request with our seasonal breakfast package for the smoothest first morning.',
             'Start with two nights minimum at any coastal property â€” one day to settle, one to explore â€” then extend only if the hotel offers experiences you cannot replicate elsewhere, such as private boat transfers or chef-led market tours.',
         ],
         tag: 'Travel',
@@ -43,7 +43,7 @@ const articles = [
         body: [
             'Early-bird offers reward planning, but not every date benefits equally. Shoulder seasons â€” late spring and early autumn â€” often deliver the strongest discount-to-flexibility ratio because demand is steady but not peak.',
             'Read cancellation terms before you commit: the best luxury retreat offers include a partial refund window or one free date change. If those are missing, treat the booking as non-refundable and only lock in when your dates are firm.',
-            'Combine the 60-day offer with loyalty perks where available: suite upgrades, resort credits, or spa vouchers frequently stack at partner properties when booked through Demo Hotel.',
+            'Combine the 60-day offer with loyalty perks where available: suite upgrades, resort credits, or spa vouchers frequently stack at partner properties when booked through Sobana Hotel.',
         ],
         tag: 'Tips',
         featured: false,
@@ -190,7 +190,7 @@ const LongFormArticle = ({ article, featured = false }) => (
                 </div>
                 <div>
                     <p className="text-sm font-medium text-neutral-300 group-hover:text-white transition-colors duration-300">{article.author}</p>
-                    <p className="text-xs text-neutral-500">Demo Hotel Journal</p>
+                    <p className="text-xs text-neutral-500">Sobana Hotel Journal</p>
                 </div>
                 <span className="ml-auto text-xs text-neutral-600 group-hover:text-rose-400/80 transition-colors duration-300 opacity-0 group-hover:opacity-100 translate-x-2 group-hover:translate-x-0 transition-all duration-300">
                     Continue reading

@@ -12,21 +12,21 @@ const BookIcon = () => (
 const getNavbarTheme = (pathname, isScrolled) => {
     // Default theme for standard pages (Rooms, About, Hospitality, etc.) when scrolled or always
     const defaultScrolled = {
-        bg: "bg-[#F6F9FC]/95 text-gray-900 backdrop-blur-xl py-2 md:py-3 shadow-[0_40px_100px_rgba(0,0,0,0.25)] border border-gray-200",
+        bg: "bg-white text-gray-900 backdrop-blur-xl py-2 md:py-3 shadow-[0_40px_100px_rgba(0,0,0,0.25)] border border-gray-200 isolate",
         text: "text-gray-900",
-        linkText: "text-gray-900 font-medium hover:text-blue-600 hover:bg-gray-100",
+        linkText: "text-gray-800 font-medium hover:text-[#d4af37] hover:bg-amber-50",
         logoInvert: true,
-        activeLink: "text-blue-700 font-extrabold",
-        activeIndicator: "bg-[#49B9FF]"
+        activeLink: "text-[#d4af37] font-extrabold",
+        activeIndicator: "bg-[#d4af37]"
     };
 
     const defaultTop = {
-        bg: "bg-black/20 backdrop-blur-md border border-transparent shadow-[0_40px_100px_rgba(0,0,0,0.2)] py-3 md:py-4",
-        text: "text-white",
-        linkText: "text-white font-medium hover:bg-white/20",
-        logoInvert: false,
-        activeLink: "text-white font-extrabold",
-        activeIndicator: "bg-white"
+        bg: "bg-white/95 backdrop-blur-xl border border-gray-100 shadow-[0_20px_60px_rgba(0,0,0,0.15)] py-3 md:py-4",
+        text: "text-gray-900",
+        linkText: "text-gray-800 font-medium hover:text-[#d4af37] hover:bg-amber-50",
+        logoInvert: true,
+        activeLink: "text-[#d4af37] font-extrabold",
+        activeIndicator: "bg-[#d4af37]"
     };
 
     if (pathname === '/') {
@@ -236,9 +236,12 @@ const Navbar = () => {
         <nav className="fixed top-0 left-0 w-full z-50 px-4 md:px-16 lg:px-24 xl:px-32 pt-4 md:pt-5">
             <div className={`flex items-center justify-between w-full transition-all duration-500 rounded-full px-5 md:px-8 lg:px-10 ${theme.bg}`}>
 
-                <Link to='/' className={`group flex flex-col items-start shrink-0 ${theme.logoInvert ? "text-gray-900" : "text-white"}`}>
-                    <span className="font-playfair text-xl md:text-2xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Hotel</span>
-                    <span className="font-playfair text-sm md:text-base font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 group-hover:text-blue-500">DEMO</span>
+                <Link to='/' className={`group flex items-center gap-4 shrink-0 text-gray-900`}>
+                    <img src={assets.logo} alt="Sobana Hotel Logo" className="h-16 md:h-20 w-auto object-contain transition-transform duration-500 group-hover:scale-105 mix-blend-multiply contrast-110" />
+                    <div className="flex flex-col items-start text-left">
+                        <span className="font-playfair text-2xl md:text-3xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Sobana</span>
+                        <span className={`font-playfair text-sm md:text-base font-bold tracking-[0.3em] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 ${theme.logoInvert ? "text-[#d4af37]" : "text-[#d4af37]"}`}>Hotel</span>
+                    </div>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-1 lg:gap-2">
@@ -318,9 +321,12 @@ const Navbar = () => {
 
             <div className={`fixed top-0 left-0 w-full h-screen bg-white flex flex-col md:hidden transition-all duration-500 ease-in-out ${isMenuOpen ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
                 <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100">
-                    <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex flex-col items-start text-gray-900 group">
-                        <span className="font-playfair text-2xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Hotel</span>
-                        <span className="font-playfair text-base font-bold tracking-[0.3em] text-[#49B9FF] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 group-hover:text-blue-500">DEMO</span>
+                    <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-4 text-gray-900 group">
+                        <img src={assets.logo} alt="Sobana Hotel Logo" className="h-16 w-auto object-contain transition-transform duration-500 group-hover:scale-105 mix-blend-multiply contrast-110" />
+                        <div className="flex flex-col items-start text-left">
+                            <span className="font-playfair text-2xl font-black tracking-widest uppercase leading-none transition-transform duration-500 group-hover:scale-105">Sobana</span>
+                            <span className="font-playfair text-sm font-bold tracking-[0.3em] text-[#d4af37] leading-none mt-1 transition-transform duration-500 group-hover:scale-105 group-hover:text-yellow-600">Hotel</span>
+                        </div>
                     </Link>
                     <button onClick={() => setIsMenuOpen(false)} className="p-2 rounded-xl hover:bg-gray-100">
                         <img src={assets.closeIcon} alt="close" className="h-5 w-5" />

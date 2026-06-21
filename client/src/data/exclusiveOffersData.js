@@ -79,7 +79,7 @@ export const exclusiveOffers = [
     tagline: "Intimate moments, spa bliss, and memories made for two",
     description: "Special couples package including spa treatment",
     longDescription:
-      "Celebrate love with our Romantic Getaway — a curated couples experience at our Demo Hotel branches across Ethiopia. From candlelit dinners to side-by-side spa rituals, every detail is designed to deepen connection and relaxation. This package pairs beautifully with anniversary trips, honeymoons, or spontaneous weekend escapes.",
+      "Celebrate love with our Romantic Getaway — a curated couples experience at our Sobana Hotel branches across Ethiopia. From candlelit dinners to side-by-side spa rituals, every detail is designed to deepen connection and relaxation. This package pairs beautifully with anniversary trips, honeymoons, or spontaneous weekend escapes.",
     priceOff: 20,
     expiryDate: "Sep 20",
     expiryFull: "September 20, 2026",
@@ -145,9 +145,9 @@ export const exclusiveOffers = [
     tagline:
       "Book early, travel grand — exclusive savings on world-class stays",
     description:
-      "Book 60 days in advance and save on your stay at any of our Demo Hotel branches.",
+      "Book 60 days in advance and save on your stay at any of our Sobana Hotel branches.",
     longDescription:
-      "The Luxury Retreat offer rewards planners who book ahead. Reserve any of our premium Demo Hotel branches at least 60 days before arrival and receive up to 30% off the best available rate, plus VIP touches reserved for our most discerning guests. Ideal for milestone celebrations, executive travel, and extended stays.",
+      "The Luxury Retreat offer rewards planners who book ahead. Reserve any of our premium Sobana Hotel branches at least 60 days before arrival and receive up to 30% off the best available rate, plus VIP touches reserved for our most discerning guests. Ideal for milestone celebrations, executive travel, and extended stays.",
     priceOff: 30,
     expiryDate: "Sep 25",
     expiryFull: "September 25, 2026",

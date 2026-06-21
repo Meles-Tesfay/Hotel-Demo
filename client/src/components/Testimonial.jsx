@@ -6,16 +6,17 @@ const Testimonial = () => {
         <div className='relative flex flex-col items-center px-6 md:px-16 lg:px-24 xl:px-32 py-24 bg-gray-50/50'>
             {/* Section Header */}
             <div className="flex flex-col items-center text-center mb-16 relative z-10 group/header">
-                <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 px-4 py-1.5 rounded-full text-xs font-bold text-blue-600 mb-6 uppercase tracking-widest shadow-sm hover:scale-105 hover:bg-blue-100 transition-all duration-300 cursor-default">
-                    <span className="w-2 h-2 rounded-full bg-blue-500 animate-bounce"></span>
+                <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 px-4 py-1.5 rounded-full text-xs font-bold text-amber-700 mb-6 uppercase tracking-widest shadow-sm hover:scale-105 hover:bg-amber-100 transition-all duration-300 cursor-default">
+                    <span className="w-2 h-2 rounded-full bg-[#d4af37] animate-bounce"></span>
                     Testimonials
                 </div>
+                <p className="font-['Playfair_Display'] italic text-[#d4af37] text-xl md:text-2xl mb-3 opacity-90 tracking-wide">Words from our guests</p>
                 <h2 className='font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6 transition-transform duration-500 group-hover/header:scale-105'>
-                    What Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-500 to-blue-600 hover:from-purple-600 hover:via-pink-500 hover:to-orange-500 transition-all duration-1000 cursor-default">Guests Say</span>
+                    What Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] via-[#f3e5ab] to-[#c5a059] hover:from-[#b8860b] hover:via-[#d4af37] hover:to-[#b8860b] transition-all duration-1000 cursor-default">Guests Say</span>
                 </h2>
                 <div className="max-w-2xl relative">
                     <p className='text-gray-500 text-lg leading-relaxed transform transition-all duration-500 hover:text-gray-800 hover:-translate-y-1 hover:shadow-sm p-2 rounded-xl'>
-                        Discover why travelers across Ethiopia consistently choose Demo Hotel for their comfortable and memorable stays.
+                        Discover why travelers across Ethiopia consistently choose Sobana Hotel for their comfortable and memorable stays.
                     </p>
                 </div>
             </div>
@@ -23,7 +24,7 @@ const Testimonial = () => {
             {/* Testimonial Cards Grid */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl mx-auto'>
                 {testimonials.map((testimonial, index) => (
-                    <div key={testimonial.id} className='group relative p-8 rounded-3xl bg-white border border-gray-100 transition-all duration-500 hover:-translate-y-4 hover:shadow-[0_20px_50px_rgba(59,130,246,0.15)] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-between h-full overflow-hidden cursor-default'>
+                    <div key={testimonial.id} className='group relative p-8 rounded-3xl bg-white border border-gray-100 transition-all duration-500 hover:-translate-y-4 hover:shadow-[0_20px_50px_rgba(212,175,55,0.15)] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col justify-between h-full overflow-hidden cursor-default'>
                         
                         {/* Animated Gradient Background on Hover */}
                         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 via-indigo-50/0 to-purple-50/0 group-hover:from-blue-50/50 group-hover:via-indigo-50/30 group-hover:to-purple-50/50 transition-colors duration-700 pointer-events-none"></div>

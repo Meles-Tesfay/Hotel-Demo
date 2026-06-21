@@ -9,11 +9,11 @@ const extsToProcess = ['.js', '.jsx', '.json', '.html', '.md', '.css'];
 function replaceInFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf8');
     let newContent = content
-        .replace(/Demo Hotel/gi, 'Demo Hotel')
-        .replace(/Demo/gi, 'Demo')
-        .replace(/DemoHotel/gi, 'DemoHotel')
-        .replace(/DemoHotelhotels/gi, 'demohotels')
-        .replace(/Demo-Hotel-Template/gi, 'Demo-Hotel-Template');
+        .replace(/Sobana Hotel/gi, 'Sobana Hotel')
+        .replace(/Sobana/gi, 'Sobana')
+        .replace(/SobanaHotel/gi, 'SobanaHotel')
+        .replace(/SobanaHotelhotels/gi, 'sobanahotels')
+        .replace(/Sobana-Hotel-Template/gi, 'Sobana-Hotel-Template');
         
     if (content !== newContent) {
         fs.writeFileSync(filePath, newContent, 'utf8');
